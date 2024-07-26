@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    color: #f39c12;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #e67e22;
+}
+
+header p {
+    font-style: italic;
+    color: #e74c3c;
+    font-size: 1.2em;
+    text-shadow: 1px 1px #c0392b;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #f39c12;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px #e67e22;
+}
+
+.contact p, .education p {
+    margin: 5px 0;
+}
+
+.experience .job {
+    margin-bottom: 20px;
+}
+
+.experience .job h3 {
+    margin: 0;
+    color: #3498db;
+    font-size: 1.3em;
+    text-shadow: 1px 1px #2980b9;
+}
+
+.experience .job p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills ul li {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #2ecc71;
+    text-shadow: 1px 1px #27ae60;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ecf0f1;
+    text-shadow: 1px 1px #bdc3c7;
+}
+
